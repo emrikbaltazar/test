@@ -253,6 +253,9 @@
         "expirationDate" : {
           "type" : "string",
           "format" : "date-time"
+        },
+        "testprop" : {
+          "type" : "string"
         }
       }
     }
