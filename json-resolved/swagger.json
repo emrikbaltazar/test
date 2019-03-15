@@ -87,7 +87,7 @@
           "200" : {
             "description" : "successful operation",
             "schema" : {
-              "$ref" : "#/definitions/Order"
+              "$ref" : "#/definitions/Order/properties/orderID"
             }
           },
           "400" : {
@@ -186,7 +186,8 @@
       "properties" : {
         "orderID" : {
           "type" : "integer",
-          "format" : "int32"
+          "format" : "int32",
+          "example" : 2
         },
         "customerName" : {
           "type" : "string"
