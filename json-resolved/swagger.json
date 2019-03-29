@@ -21,15 +21,9 @@
         "parameters" : [ ],
         "responses" : {
           "200" : {
-            "description" : "file to download",
-            "headers" : {
-              "X-Rate-Limit-Remaining" : {
-                "type" : "integer"
-              }
-            },
+            "description" : "successful operation",
             "schema" : {
-              "type" : "file",
-              "example" : "https://github.com/rsms/node-imagemagick/archive/master.zip"
+              "$ref" : "#/definitions/Order_2"
             }
           },
           "default" : {
