@@ -21,9 +21,9 @@
         "parameters" : [ ],
         "responses" : {
           "200" : {
-            "description" : "successful operation",
+            "description" : "OKtest",
             "schema" : {
-              "$ref" : "#/definitions/Order_2"
+              "$ref" : "#/definitions/OK"
             }
           },
           "default" : {
@@ -211,6 +211,9 @@
           "format" : "date-time"
         }
       }
+    },
+    "OK" : {
+      "description" : "successful operation"
     },
     "Order_2" : {
       "type" : "object",
